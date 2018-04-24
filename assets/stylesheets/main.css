@@ -241,4 +241,17 @@ li {
     width: 300px;
     margin: 0 auto;
   }
+
+  #weather-icon {
+    width: 70px;
+    height: auto;
+    margin-top: 8px;
+  }
+
+  .temp {
+    font-size: 65px;
+    padding-top: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
 }
