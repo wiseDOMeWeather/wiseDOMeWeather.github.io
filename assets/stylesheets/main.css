@@ -194,3 +194,51 @@ li {
 .link {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 900px) {
+  .main-content {
+    width: 100%;
+  }
+
+  .weather-main {
+    min-width: 400px;
+    min-height: 250px;
+  }
+
+  .city-search {
+    width: 350px;
+  }
+
+  #search-button {
+    font-size: 15px;
+  }
+
+  .main-title {
+    font-size: 60px;
+  }
+
+
+}
+
+@media screen and (max-width: 450px) {
+  #header {
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 0px;
+  }
+
+  .weather-main {
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 0px;
+  }
+
+  .main-title {
+    font-size: 50px;
+  }
+
+  .sub-title {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
