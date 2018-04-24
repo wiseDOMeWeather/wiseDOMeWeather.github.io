@@ -231,6 +231,9 @@ li {
     margin-left: 20px;
     margin-right: 20px;
     min-width: 0px;
+    padding: 10px;
+    padding-bottom: 20px;
+    max-width: 430px;
   }
 
   .main-title {
@@ -253,5 +256,10 @@ li {
     padding-top: 0px;
     margin-left: 10px;
     font-weight: bold;
+  }
+
+  .weather-left {
+    display: grid;
+    grid-template-rows: 2fr 0.5fr 0.5fr 3fr;
   }
 }
