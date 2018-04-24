@@ -35,8 +35,8 @@ body {
   display: grid;
   grid-template-rows: 2fr 3fr;
   width: 60%;
+  max-height: 700px;
   font-family: sans-serif;
-  max-height: 600px;
   grid-gap: 25px;
 }
 
@@ -47,6 +47,7 @@ body {
   max-width: 500px;
   min-width: 450px;
   min-height: 250px;
+  max-height: 315px;
   margin: 0 auto;
   border-radius: 5px;
   padding: 20px;
@@ -56,7 +57,7 @@ body {
 
 .weather-left {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 3fr;
 }
 
 .main-title {
