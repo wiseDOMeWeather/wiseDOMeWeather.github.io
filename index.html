@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="./lib/bundle.js" charset="utf-8"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk0Qg5Rix5gEaVgQlhixY53tuRexaiueo&libraries=places"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abel|Black+Han+Sans|Lobster" rel="stylesheet">
+    <title>wiseDOMe</title>
+  </head>
+  <body>
+
+    <div class="main-content">
+      <header id="header">
+        <h1 class="main-title">wiseDOMe Weather</h1>
+        <p class="sub-title">Search for any city to see the current weather</p>
+        <p class="madhava-title"> <a href="https://www.madhavahansen.com">By Madhava Hansen</a></p>
+      </header>
+      <div class="weather-main">
+          <ul class="weather-left">
+            <li class="city-name">London, UK</li>
+            <ul class="day">
+              <li class="day"></li>
+              <li id="time"></li>
+            </ul>
+            <li class="description"></li>
+              <ul class="image-and-temp">
+                <li class="image"><img id="weather-icon" src="" alt="weather-icon"></li>
+                <li class="temp"></li>
+                <img class="degree" src="./assets/images/degree.png" alt="degree">
+              </ul>
+          </ul>
+          <ul class="weather-right">
+            <li class="humidity"></li>
+            <li class="wind"></li>
+          </ul>
+        </div>
+      <form class="city-search" action="index.html" method="post">
+        <input placeholder="Search"
+          class="search" id="autocomplete" type="text"></input>
+        <button id="search-button" type="submit">Submit</button>
+      </form>
+        <p class="powered">Powered by <a class="link" target="_blank" href="https://github.com/Madhava-Hansen/wiseDOMe">wiseDOMe</a></p>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+/* css reset */
+
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, h2, h5, h4, h3, p, form,
+fieldset, label, input, textarea,
+span, article, footer, figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: none;
+  vertical-align: inherit;
+  box-sizing: inherit;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/* main content styles */
+
+body {
+  background-image: url("https://res.cloudinary.com/aptquirks/image/upload/v1524339205/koolau-mountain-range-oahu-hawaii.adapt.1190.1_fxj9aa.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-content {
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  width: 60%;
+  font-family: sans-serif;
+  max-height: 600px;
+  grid-gap: 25px;
+}
+
+.weather-main {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 500px;
+  min-width: 450px;
+  min-height: 250px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 30px;
+  box-shadow: 1px 1px 5px lightgrey;
+}
+
+.weather-left {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-title {
+  padding: 20px;
+  padding-top: 15px;
+  font-size: 70px;
+  font-family: 'Abel', cursive;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.sub-title {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.madhava-title {
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.image-and-temp {
+  position: relative;
+  width: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  margin-top: 20px;
+}
+
+.day-time {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50px;
+}
+
+.degree {
+  position: absolute;
+  top: 22px;
+  left: 190px;
+  width: 15px;
+  height: auto;
+}
+
+.city-name {
+  font-size: 25px;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+li {
+  padding-bottom: 3px;
+  font-size: 18px;
+  font-family: 'Abel', sans-serif;
+}
+
+.temp {
+  font-size: 85px;
+  padding-top: 0px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#weather-icon {
+  width: 90px;
+  height: auto;
+  margin-top: 8px;
+}
+
+#header {
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 90px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+#main-decription {
+  font-size: 30px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.city-search {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  margin: 0 auto;
+  width: 380px;
+  background-color: rgba(255,255,255, 0.3);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.search {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  width: 90%;
+  padding-left: 10px;
+}
+
+#search-button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#search-button:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.powered {
+  color: white;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: underline;
+}
