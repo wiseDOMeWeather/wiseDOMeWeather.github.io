@@ -225,11 +225,14 @@ li {
     margin-left: 20px;
     margin-right: 20px;
     min-width: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .main-content {
     grid-gap: 10px;
-    max-height: 600px;
+    max-height: 550px;
+    display: block;
   }
 
   .weather-main {
@@ -239,7 +242,8 @@ li {
     padding: 10px;
     padding-bottom: 20px;
     max-width: 430px;
-    max-height: 250px;
+    max-height: 240px;
+    margin-bottom: 10px;
   }
 
   .main-title {
@@ -248,7 +252,7 @@ li {
 
   .sub-title {
     width: 300px;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
     margin: 0 auto;
   }
@@ -261,6 +265,14 @@ li {
     width: 70px;
     height: auto;
     margin-top: 8px;
+  }
+
+  .powered {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 50px;
   }
 
   .temp {
