@@ -275,6 +275,11 @@ li {
     padding-bottom: 50px;
   }
 
+  .degree {
+    top: 15px;
+    left: 160px;
+  }
+
   .temp {
     font-size: 65px;
     padding-top: 0px;
