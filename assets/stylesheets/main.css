@@ -227,6 +227,11 @@ li {
     min-width: 0px;
   }
 
+  .main-content {
+    grid-gap: 10px;
+    max-height: 600px;
+  }
+
   .weather-main {
     margin-left: 20px;
     margin-right: 20px;
@@ -234,15 +239,22 @@ li {
     padding: 10px;
     padding-bottom: 20px;
     max-width: 430px;
+    max-height: 250px;
   }
 
   .main-title {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .sub-title {
     width: 300px;
+    font-size: 15px;
+    color: white;
     margin: 0 auto;
+  }
+
+  .madhava-title {
+    display: none;
   }
 
   #weather-icon {
